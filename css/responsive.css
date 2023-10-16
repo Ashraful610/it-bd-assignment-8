@@ -1,0 +1,11 @@
+/* ======================== Banner Style =================== */
+@media screen and (max-width:576px) {
+    .strict-content h1{
+        font-size: 60px;
+        padding: 10px 50px ;
+        margin-bottom: 20px;
+    }
+    .strict-content p{
+        padding: 0 10px;
+    }
+}
