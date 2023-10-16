@@ -35,4 +35,13 @@
     .contact-form{
         width: 90%;
     }
+    /* =========================== footer =============== */
+    footer > div{
+        display: block;
+        text-align: center !important;
+    }
+    .social-media{
+        justify-content: center;
+        margin-top: 15px;
+    }
 }

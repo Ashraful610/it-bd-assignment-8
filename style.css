@@ -227,3 +227,32 @@ nav ul li{
     justify-content: space-between;
     margin-top: 30px;
 }
+/* ============================ footer ========================== */
+footer{
+    width: 100%;
+    min-height: fit-content;
+    height: 100px;   
+    display: flex; 
+    align-items: center;
+}
+footer > div{
+    display: flex;
+    justify-content: space-between;
+}
+footer h6{
+    color: #7a7c7c;
+    margin-bottom: 0;
+}
+.social-media{
+    display: flex;
+}
+.icon-div{
+    width: 30px;
+    height: 30px;
+    background-color: #15a3f9;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px ;
+}
