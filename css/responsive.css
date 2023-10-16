@@ -4,7 +4,12 @@
 .simple-pure > div{
     padding: 0 20px;
 }
+ /* ==============  contact section =================== */
+.contact-form{
+    width: 70%;
+}
 @media screen and (max-width:768px) {
+     /* =============== simple & pure section ================ */
     .simple-pure > div{
         padding: 0 20px;
     }
@@ -25,5 +30,9 @@
     }
     .simple-pure > div{
         padding: 20px;
+    }
+    /* ==============  contact section =================== */
+    .contact-form{
+        width: 90%;
     }
 }
