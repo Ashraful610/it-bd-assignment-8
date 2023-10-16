@@ -85,3 +85,26 @@ nav ul li{
     padding: 0 100px;
     line-height: 30px;
 }
+/* ====================== service section ============= */
+.service .icon-div{
+    width: 30%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #48baff 50%, #5fc3ff 50%);
+}
+.service .icon-div > i{
+    font-size: 45px;
+    color: white;
+}
+.service .content{
+    padding: 20px;
+    text-align: center;
+}
+.service .content h4{
+    color: #576173;
+}
+.service .content p{
+    color: #a0a0a0;
+}
