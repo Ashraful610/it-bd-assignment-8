@@ -1,4 +1,15 @@
 /* ======================== Banner Style =================== */
+@media screen and (max-width:992px) {
+    /* =============== simple & pure section ================ */
+.simple-pure > div{
+    padding: 0 20px;
+}
+@media screen and (max-width:768px) {
+    .simple-pure > div{
+        padding: 0 20px;
+    }
+}
+}
 @media screen and (max-width:576px) {
     .strict-content h1{
         font-size: 60px;
@@ -7,5 +18,12 @@
     }
     .strict-content p{
         padding: 0 10px;
+    }
+    /* ==================== simple & pure section */
+    .simple-pure{
+        height: fit-content;
+    }
+    .simple-pure > div{
+        padding: 20px;
     }
 }
